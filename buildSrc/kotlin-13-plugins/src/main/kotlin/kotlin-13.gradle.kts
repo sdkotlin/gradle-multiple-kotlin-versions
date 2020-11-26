@@ -1,5 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+// Mix-in for Kotlin 1.3 projects.
+
 plugins {
 	kotlin("jvm")
 }
