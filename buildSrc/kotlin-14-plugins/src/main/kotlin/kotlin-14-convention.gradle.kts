@@ -1,6 +1,6 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-// Mix-in for Kotlin 1.3 projects.
+// Mix-in for Kotlin 1.4 projects.
 
 plugins {
 	kotlin("jvm")
@@ -8,7 +8,7 @@ plugins {
 
 dependencies {
 	implementation(kotlin("reflect"))
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 }
 
 java {

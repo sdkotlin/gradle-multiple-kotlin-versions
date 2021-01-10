@@ -1,4 +1,4 @@
 plugins {
 	// Precompiled script plugin.
-	`kotlin-14`
+	`kotlin-14-convention`
 }

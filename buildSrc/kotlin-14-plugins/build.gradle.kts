@@ -1,4 +1,3 @@
-plugins {
-	// Override the Kotlin version in parent buildSrc project.
-	kotlin("jvm") version "1.4.20" apply false
+dependencies {
+	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.21-2")
 }
